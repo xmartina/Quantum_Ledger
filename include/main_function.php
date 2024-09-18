@@ -10,6 +10,12 @@ $site_email = 'contact@quantumledger.online';
 $login_url = 'https://account.' . $site_link . '?a=login';
 $register_url = 'https://account.' . $site_link . '?a=signup';
 
+
+//About Section
+function about_content(){
+    include_once (__DIR__ . '/../pages/about/about_content.php');
+}
+//Suppprt Plugin Section
 function support(){
     include_once (__DIR__ . '/support.php');
 }
