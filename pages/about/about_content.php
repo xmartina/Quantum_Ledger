@@ -44,7 +44,7 @@
                             <li><b>ROI</b> 2% Daily</li>
                             <li><b>Duration</b> 3days</li>
                         </ul>
-                        <a href="user/login.html" class="pricingTable-signup">Invest Now</a>
+                        <a href="<?=$login_url?>" class="pricingTable-signup">Invest Now</a>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
@@ -61,7 +61,7 @@
                             <li><b>ROI</b> 5% Daily</li>
                             <li><b>Duration</b> 7days</li>
                         </ul>
-                        <a href="user/login.html" class="pricingTable-signup">Invest Now</a>
+                        <a href="<?=$login_url?>" class="pricingTable-signup">Invest Now</a>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
@@ -78,7 +78,7 @@
                             <li><b>ROI</b> 15% Daily</li>
                             <li><b>Duration</b> 14days</li>
                         </ul>
-                        <a href="user/login.html" class="pricingTable-signup">Invest Now</a>
+                        <a href="<?=$login_url?>" class="pricingTable-signup">Invest Now</a>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
@@ -95,7 +95,7 @@
                             <li><b>ROI</b> 25% Daily</li>
                             <li><b>Duration</b> 28days</li>
                         </ul>
-                        <a href="user/login.html" class="pricingTable-signup">Invest Now</a>
+                        <a href="<?=$login_url?>" class="pricingTable-signup">Invest Now</a>
                     </div>
                 </div>
             </div>
