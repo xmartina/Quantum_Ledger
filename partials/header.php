@@ -7,7 +7,7 @@
     <meta name="description" content="QFS: Quantum Financial System Revolutionary Financial System">
     <meta name="author" content="QFS">
     <meta name="designer" href="https://twoone.tech/">
-    <title>QFS | QUANTUM FINANCIAL SYSTEM</title>
+    <title><?=$page_name?> | <?=$site_name?> | <?=$site_short_title?></title>
     <!-- font icons -->
     <link rel="stylesheet" href="<?=$site_url?>assets/vendors/themify-icons/css/themify-icons.css">
 
