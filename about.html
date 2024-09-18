@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from qfsholdings.io/about by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 18 Sep 2024 10:55:12 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="QFS: Quantum Financial System">
+    <meta name="author" content="QFS">
+    <title>QFS | QUANTUM FINANCIAL SYSTEM</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+
+    <!-- Bootstrap + Dorang main styles -->
+	<link rel="stylesheet" href="assets/css/dorang.css">
+	<link rel="shortcut icon" href="assets/imgs/qfsicon.png" type="image/x-icon">
+	<style>.image-container {
+  max-width: 100%;
+  height: auto;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.demo {
+    background: #FAD2C8;
+    padding: 30px 0
+}
+
+a {
+    text-decoration: none;
+}
+
+.pricingTable {
+    padding: 25px 10px 70px;
+    margin: 0 15px;
+    text-align: center;
+    z-index: 1;
+    position: relative
+}
+
+.pricingTable:after,
+.pricingTable:before {
+    content: "";
+    position: absolute;
+    left: 0
+}
+
+.pricingTable .price-value .amount {
+    display: inline-block;
+    font-size: 50px;
+    font-weight: 700
+}
+
+.pricingTable .price-value .month {
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 10px;
+    text-transform: uppercase
+}
+
+.pricingTable:before {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    top: 0;
+    z-index: -1;
+    -webkit-clip-path: polygon(100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
+    clip-path: polygon(100% 0, 100% 85%, 50% 100%, 0 85%, 0 0)
+}
+
+.pricingTable:after {
+    width: 70px;
+    height: 30px;
+    background: #1daa72;
+    margin: 0 auto;
+    top: 70px;
+    right: 0;
+    -webkit-clip-path: polygon(50% 100%, 0 0, 100% 0);
+    clip-path: polygon(50% 100%, 0 0, 100% 0)
+}
+
+.pricingTable .title {
+    padding: 15px 0;
+    margin: 0 -25px 30px;
+    background: #1daa72;
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative
+}
+
+.pricingTable .title:after,
+.pricingTable .title:before {
+    border-top: 15px solid #51836d;
+    border-bottom: 15px solid transparent;
+    position: absolute;
+    bottom: -30px;
+    content: ""
+}
+
+.pricingTable .title:before {
+    border-left: 15px solid transparent;
+    left: 0
+}
+
+.pricingTable .title:after {
+    border-right: 15px solid transparent;
+    right: 0
+}
+
+.pricingTable .price-value {
+    margin-bottom: 25px;
+    color: #1daa72
+}
+
+.pricingTable .currency {
+    display: inline-block;
+    font-size: 30px;
+    vertical-align: top;
+    margin-top: 8px
+}
+
+.price-value .amount {
+    display: inline-block;
+    font-size: 50px;
+    font-weight: 700
+}
+
+.price-value .month {
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 10px;
+    text-transform: uppercase
+}
+
+.pricingTable .pricing-content {
+    padding: 0;
+    margin: 0 0 25px;
+    list-style: none;
+    border-top: 1px solid #8f8f8f;
+    border-bottom: 1px solid #8f8f8f
+}
+
+.pricingTable .pricing-content li {
+    font-size: 17px;
+    color: #8f8f8f;
+    line-height: 55px
+}
+
+.pricingTable .pricingTable-signup {
+    display: inline-block;
+    padding: 10px 30px;
+    background: #1daa72;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+    transition: all .7s ease 0s
+}
+
+.pricingTable .pricingTable-signup:before {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transform: translate(0, 100%);
+    transition: all .6s ease-in-out 0s
+}
+
+.pricingTable .pricingTable-signup:hover:before {
+    opacity: 1;
+    transform: translate(0, -100%)
+}
+
+.pricingTable.blue .pricingTable-signup,
+.pricingTable.blue .title,
+.pricingTable.blue:after {
+    background: #49b0ca
+}
+
+.pricingTable.blue .title:after,
+.pricingTable.blue .title:before {
+    border-top: 15px solid #407a88
+}
+
+.pricingTable.blue .price-value {
+    color: #49b0ca
+}
+
+.pricingTable.pink .pricingTable-signup,
+.pricingTable.pink .title,
+.pricingTable.pink:after {
+    background: #f06ace
+}
+
+.pricingTable.pink .price-value {
+    color: #f06ace
+}
+
+.pricingTable.pink .title:after,
+.pricingTable.pink .title:before {
+    border-top: 15px solid #773667
+}
+
+@media  only screen and (max-width:990px) {
+    .pricingTable {
+        margin-bottom: 30px
+    }
+}
+
+</style>
+
+
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home" class="dark-theme">
+    
+    <!-- page navbar -->
+    <nav class="page-navbar" data-spy="affix" data-offset-top="10">
+        <ul class="nav-navbar container">
+            <li class="nav-item"><a href="index-2.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+            <li class="nav-item">
+  <a href="index-2.html" class="nav-link">
+    <img src="assets/imgs/qfs.png" alt="Quantum Financial System QFS NESARA" width="50" height="50">
+  </a>
+</li>
+
+            <li class="nav-item"><a href="user/register.html" class="nav-link">Join Us</a></li>
+            <li class="nav-item search">
+                <a href="qfs.pdf" class="nav-link search-toggle"> PDF</a>
+                
+            </li>
+        </ul>
+    </nav><!-- end of page navbar -->
+
+    <div class="theme-selector">
+        <a href="javascript:void(0)" class="spinner">
+            <i class="ti-paint-bucket"></i>
+        </a>
+        <div class="body">
+            <a href="javascript:void(0)" class="light"></a>
+            <a href="javascript:void(0)" class="dark"></a>
+        </div>
+    </div>  
+
+    <!-- page header -->
+    <header class="header">
+        <div class="overlay"></div>
+        <div class="header-content">
+            <img src="assets/imgs/qfs.png" alt="Quantum Financial System QFS NESARA" width="150" height="150" style="display: block; margin: 0 auto;">
+            <h1 class="header-title">QUANTUM FINANCIAL SYSTEM</h1>
+
+
+
+
+     
+
+
+        </div>
+    </header><!-- end of page header -->
+
+   
+
+    <!-- page container -->
+    <div class="container page-container">
+        <div class="col-md-10 col-lg-8 m-auto">
+            <h6 class="title mb-4">ABOUT QFS</h6>
+            <p class="mb-5">QFS literal meaning is Quantum Financial System, which is an advanced financial system launched to eradicate monopoly on monetary system.The global financial reset has started and the quantum financial system that will replace all banks after the world financial crash is live.Quantum Financial System would be a breakthrough in the world of banking which will lead to a new era of banking. QFS will not be influenced by Government policies, rather it will be entirely backed by tangible assets like Gold, Platinum, Oil and will not be based upon mere piece of papers which have no evidentiary value.<br><br></p><div class="image-container">
+  <img src="qfsho2.jpg" alt="" class="image">
+</div><br><br>
+            
+            <h3>KEY FEATURES OF QUANTUM FINANCIAL SYSTEM </h3>
+            
+            <br><p>
+            1)It encapsulates a global network for the transmission of asset-backed digital currency.<br><br>2) It will replace the centrally controlled SWIFT System in the US.<br><br>3)It protects all involved parties from corruption and manipulation within the banking system.<br><br>4)It operates independently of the current decentralized system.<br><br>5)It is not a cryptocurrency, but a digital currency backed by assets.</p>
+<br><br><div class="image-container">
+  <img src="qfsho.jpg" alt="" class="image">
+</div><br><br><p>
+
+The History of money is entering a new era, You might just wake up with no money.Convert all your fiat currency into a digital backed currency.We walk you through that journey.Our System is designed to convert your assets into a digitally backed funds.<br>
+The Quantum Financial System (QFS) Holdings is a universal network that is developed to facilitate the transfer of asset-backed funds,QFS HOLDINGS is a cutting-edge financial technology that brings a fresh perspective to the monetary world.This technology is deeply rooted in quantum-secure blockchain encryption, quantum computing, and quantum cryptography backed by gold and silver.</p><br><br><br><p>
+QFS holdings also provide financial advise  on the purchase,holding,and liquidation of tangible assets(i.e gold and silver etc)for both retirement and cash accounts and also offers brokerage, securities, cryptocurrencies, asset allocation, and trading services with incorporating quantum security solutions.<br><br>This financial industry is no stranger to the task of portfolio optimization and Quantum Investment which involves selecting the best possible investment portfolio out of the set of all portfolios being considered based on expected return and risk free as revolutionize areas such as risk management, asset pricing, and algorithmic trading. <br><br>
+
+One of the main advantages of Quantum Financial System holdings is that it provides an extra layer of security with QFS Card which you can use anywhere in the world for making payment.All you have to do is swipe your card and the payment amount is deducted from the available balance of your digital ISO 20022 assets which adheres to the QFS standard for electronic interchange .Imagine a world where financial transactions are completed almost instantaneously.<br><br>
+
+
+</p>
+        </div><br><br>
+        <h3>INVESTMENT PLANS</h3><br>
+        
+        <div class="demo">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-6">
+                <div class="pricingTable">
+                    <h3 class="title">PLATINUM</h3>
+                    <div class="price-value">
+                        <span class="currency">$</span>
+                        <span class="amount">100</span>
+                        <span class="month">Start From</span>
+                    </div>
+                    <ul class="pricing-content">
+                        <li><b>Min Deposit</b> $100</li>
+                        <li><b>Max Deposit</b> $9,999</li>
+                        <li><b>ROI</b> 2% Daily</li>
+                        <li><b>Duration</b> 3days</li>
+                        
+                    </ul>
+                    <a href="user/login.html" class="pricingTable-signup">Invest Now</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="pricingTable pink">
+                    <h3 class="title">DIAMOND</h3>
+                    <div class="price-value">
+                        <span class="currency">$</span>
+                        <span class="amount">10,000</span>
+                        <span class="month">Start From</span>
+                    </div>
+                    <ul class="pricing-content">
+                        <li><b>Min Deposit</b> $10,000</li>
+                        <li><b>Max Deposit</b> $29,999</li>
+                        <li><b>ROI</b> 5% Daily</li>
+                        <li><b>Duration</b> 7days</li>
+                        
+                    </ul>
+                    <a href="user/login.html" class="pricingTable-signup">Invest Now</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="pricingTable pink">
+                    <h3 class="title">SILVER</h3>
+                    <div class="price-value">
+                        <span class="currency">$</span>
+                        <span class="amount">30,000</span>
+                        <span class="month">Start From</span>
+                    </div>
+                   <ul class="pricing-content">
+                        <li><b>Min Deposit</b> $30,000</li>
+                        <li><b>Max Deposit</b> $49,999</li>
+                        <li><b>ROI</b> 15% Daily</li>
+                        <li><b>Duration</b> 14days</li>
+                        
+                    </ul>
+                    <a href="user/login.html" class="pricingTable-signup">Invest Now</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="pricingTable blue">
+                    <h3 class="title">GOLD</h3>
+                    <div class="price-value">
+                        <span class="currency">$</span>
+                        <span class="amount">50,000</span>
+                        <span class="month">Start From</span>
+                    </div>
+                    <ul class="pricing-content">
+                        <li><b>Min Deposit</b> $50,000</li>
+                        <li><b>Max Deposit</b> $1,000,000</li>
+                        <li><b>ROI</b> 25% Daily</li>
+                        <li><b>Duration</b> 28days</li>
+                        
+                    </ul>
+                    <a href="user/login.html" class="pricingTable-signup">Invest Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><br><br>
+
+<h4>JOIN THE BIGGEST FINANCIAL REVOLUTIONARY SYSTEM DESIGNED TO PROTECT YOUR FINANCES FROM WORLD FINANCIAL CRASH.</h4>
+
+       
+
+
+        <!-- row -->
+        
+
+
+
+    <!--footer & pre footer -->
+   
+            <!-- footer -->
+            <footer class="footer">
+                <p class="infos">&copy; <script>document.write(new Date().getFullYear())</script>, All Right Reserved <a href="#">QFS</a></p>       
+                <span>|</span>  
+                <div class="links">
+                    <a href="about.html">About</a>
+                    <a href="user/login.html">Login</a>
+                    <a href="qfs.pdf">PDF</a>
+                </div>
+            </footer><!-- end of footer -->
+
+        <!-- end of container -->
+    </div><!-- end of pre footer -->
+
+    <!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Dorang js -->
+    <script src="assets/js/dorang.js"></script>
+    <script src="http://code.jivosite.com/widget/ee9SIvS6PZ" async></script>
+
+
+
+</body>
+
+<!-- Mirrored from qfsholdings.io/about by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 18 Sep 2024 10:55:14 GMT -->
+</html>
