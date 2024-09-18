@@ -23,6 +23,11 @@
         .header-content img{
             width: auto !important;
         }
+        .pricingTable{
+            background-color: #fff;
+            border-radius: 4px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
     </style>
 
 
