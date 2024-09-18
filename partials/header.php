@@ -25,12 +25,12 @@
         }
         .container .row .col-md-4.col-sm-6{
             margin-top: 2em;
-            padding: 2em 1em;
         }
         .pricingTable .title{
-            color: #F4F7FA;
+            color: #100e0e;
         }
         .pricingTable{
+            padding: 2em 1em;
             background-color: #fff;
             border-radius: 4px;
             box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
