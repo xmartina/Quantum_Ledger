@@ -1,5 +1,5 @@
 <?php
-$site_name = 'Quantum Ledger';
+$site_name = 'Quantum Ledger Financial System';
 $site_short_title = 'Secured Investment Platform';
 $site_des = 'Secured Investment Platform';
 $site_url = 'https://quantumledger.online/';
