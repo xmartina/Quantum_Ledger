@@ -30,7 +30,7 @@
     <div class="demo">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6 gy-5">
                     <div class="pricingTable">
                         <h3 class="title">PLATINUM</h3>
                         <div class="price-value">
