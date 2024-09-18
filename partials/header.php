@@ -23,6 +23,9 @@
         .header-content img{
             width: auto !important;
         }
+        .container .row .col-md-4.col-sm-6{
+            margin-top: 2em;
+        }
         .pricingTable{
             background-color: #fff;
             border-radius: 4px;
