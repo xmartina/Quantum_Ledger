@@ -1,7 +1,7 @@
 <?php
 $site_name = 'Quantum Ledger Financial System';
 $site_short_title = 'Secured Investment Platform';
-$site_des = 'Secured Investment Platform';
+$site_des = include_once (__DIR__.'/site_dec.php');
 $site_url = 'https://quantumledger.online/';
 $site_link = 'quantumledger.online';
 $site_email = 'contact@quantumledger.online';
