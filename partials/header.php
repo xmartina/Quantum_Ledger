@@ -20,6 +20,9 @@
             color: red;
 
         }
+        .header-content img{
+            width: auto !important;
+        }
     </style>
 
 
