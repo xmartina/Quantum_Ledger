@@ -8,4 +8,8 @@ $site_email = 'contact@quantumledger.online';
 $login_url = 'https://account.' . $site_link . '?a=login';
 $register_url = 'https://account.' . $site_link . '?a=signup';
 
+function support(){
+    include_once (__DIR__ . '/support.php');
+}
+
 

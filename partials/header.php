@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="QFS: Quantum Financial System Revolutionary Financial System">
-    <meta name="author" content="QFS">
+    <meta name="description" content="<?=$page_name?> | <?=$site_name?> | <?=$site_short_title?>">
+    <meta name="author" content="<?=$site_name?>">
     <meta name="designer" href="https://twoone.tech/">
     <title><?=$page_name?> | <?=$site_name?> | <?=$site_short_title?></title>
     <!-- font icons -->
