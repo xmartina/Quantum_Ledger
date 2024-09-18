@@ -29,5 +29,5 @@
         <div class="content">
 
             <h6 class="title mb-4">What We Do</h6>
-            <p class="mb-5"><?=$site_des?>.</p>
+            <p class="mb-5"><?php site_dec() ?>.</p>
         </div> 
